@@ -1,0 +1,19 @@
+$font-local: 'Futura';
+
+@font-face {
+    font-family: $font-local;
+    src: url('/src/assets/fonts/FUTURA55REGULAR.TTF') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: $font-local;
+    src: url('/src/assets/fonts/FUTURA65MEDIUM.TTF') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: $font-local;
+    src: url('/src/assets/fonts/FUTURA75BOLD.TTF') format('truetype');
+    font-weight: 700;
+}

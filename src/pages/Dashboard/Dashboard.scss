@@ -1,0 +1,14 @@
+.dashboard {
+    background-image: url(../../assets/wealthsimple-proto.png);
+    background-size: contain;
+    width: 610px;
+    height: 100%;
+
+    &__resources {
+        background-color: #fcfcfc;
+        height: 30rem;
+        width: 610px;
+        position: absolute;
+        top: 40rem;
+    }
+}
