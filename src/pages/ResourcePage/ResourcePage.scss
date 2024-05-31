@@ -1,0 +1,59 @@
+@use '../../styles/partials/colors' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/typography' as *;
+@use '../../styles/partials/global';
+
+.resource-page {
+  height: 170px;
+
+  &__header {
+      background-image: url('../../assets/hero.jpeg');
+      background-color: white;
+      background-position-x: 150px;
+      background-position-y: -20px;
+      background-repeat: no-repeat;
+      background-size: 350px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+      border-radius: 20px;
+      margin: 0 24px;
+
+      &--title {
+          
+          padding-left: 1rem;
+          font-weight: 600;
+          text-align: left;
+            width: 72%;
+      }
+  }
+  &__overview {
+      font-weight: 600;
+      text-align: left;
+      padding: 1rem 0.25rem;
+      border-bottom: 1px solid #e6e6e6;
+  }
+  &__lecture {
+      text-align: left;
+      line-height: 2rem;
+
+      &-title {
+          font-size: 20px;
+          padding-bottom: 8px;
+          border-bottom: 1px solid #e6e6e6;
+      }
+      &-item {
+          list-style-type: none;
+          font-size: 18px;
+      }
+      &-quiz {
+          text-align: left;
+          color: blue;
+      }
+  }
+  &__section {
+      border-bottom: 1px solid #e6e6e6;
+      padding-bottom: 8px;
+  }
+}

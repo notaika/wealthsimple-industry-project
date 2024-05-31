@@ -1,0 +1,19 @@
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/colors" as *;
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.5rem 0rem;
+  gap: 1rem;
+  list-style-type: none;
+  &__item{
+    color:black;
+    font-size: 1.25rem;
+    font-style: 700;
+  }
+}

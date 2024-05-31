@@ -1,0 +1,12 @@
+@use './colors' as *;
+@use './mixins' as *;
+@use './typography' as *;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
