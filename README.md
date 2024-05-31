@@ -1,12 +1,13 @@
 # Wealthsimple Industry Project
 
 ## Meet the Team
-Presented by Cyber Squatters | Aika, Tina, Brittany and Megha
+Presented by Cyber Squatters | Aika, Tina, Brittany and Megha. <br>
+This is our submission on this 24-hour industry hackathon.
 
 ## Problem Space
 How might we help Wealthsimple clients in Canada to improve their financial literacy and make better personal finance decisions?
 
-## Our Solution
+## Our Proposed Solution
 We propose a financial literacy enhancement feature within the Wealthsimple app. This feature offers users a series of financial literacy courses, quizzes, and rewards to improve their financial knowledge and decision-making skills.
 
 Key Features:
@@ -23,26 +24,29 @@ We hope that our solution integrates financial literacy courses into the Wealths
 
 
 ## App Notes
-To checkout the app-demo: run `npm run dev` in your console. <br>
+To checkout the app-demo: 
+- git clone `git@github.com:notaika/wealthsimple-industry-project.git`
+- run `npm run dev` in your console. <br>
 <i> Please make sure that the app view width is set to 445px in the responsive tab of Chrome Dev Tools.</i>
 
-- The app was mainly based off the wealthsimple phone app. We decided to do a simple coded app rather than using figma to show basic functionality (but also mainly because we are a team of developers with little figma experience...)
+
+The app was mainly based off the wealthsimple phone app. We decided to do a simple coded app rather than using figma to show basic functionality (but also mainly because we are a team of developers with little figma experience...)
     - With that being said, everything is hard-coded and we'd like to highlight that this app contains simple functionality and doesn't explore the depths of logic and back-end, but will be explained during the presentation.
 - Everything is to be <b> viewed strictly in 445px (WIDTH) </b> as we based it off the app screenshot.
 - The hard-coded functionality only shows one possible example of each functionality and scenario.
 
 ## App Screenshots
-Dashboard:
+Dashboard: <br>
 ![alt text](./src/assets/screenshots/image.png)
 
-Resources Page:
+Resources Page: <br>
 ![alt text](./src/assets/screenshots/image-1.png)
 
-Curriculum Page:
+Curriculum Page: 
 ![alt text](./src/assets/screenshots/image-2.png)
 
-Quiz Page:
+Quiz Page: <br>
 ![alt text](./src/assets/screenshots/image-3.png)
 
-Rewards Page:
+Rewards Page: <br>
 ![alt text](./src/assets/screenshots/image-4.png)
