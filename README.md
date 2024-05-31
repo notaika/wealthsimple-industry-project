@@ -25,7 +25,8 @@ We hope that our solution integrates financial literacy courses into the Wealths
 
 ## App Notes
 To checkout the app-demo: 
-- git clone `git@github.com:notaika/wealthsimple-industry-project.git`
+- run git clone `git@github.com:notaika/wealthsimple-industry-project.git`
+- run `npm install`
 - run `npm run dev` in your console. <br>
 <i> Please make sure that the app view width is set to 445px in the responsive tab of Chrome Dev Tools.</i>
 
