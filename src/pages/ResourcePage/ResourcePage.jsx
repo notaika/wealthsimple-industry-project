@@ -10,7 +10,9 @@ function ResourcePage(){
       <h1  className="resource-page__header"> Introduction to RRSP</h1>
       </div>
       <Navbar/>
-      <h1 className="resource-page__overview"> Course Overview</h1>
+      <div className="resource-page__overview">
+      <h1 className="resource-page__subheader"> Course Overview</h1>
+      </div>
       <h4>Introduction</h4>
       <ul className="resource-page__list">
         <li className="resource-page__item">

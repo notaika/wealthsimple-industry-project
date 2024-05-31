@@ -19,6 +19,8 @@
     align-items: center;
 }
   &__overview{
+    width: 100%;
+    display: flex;
     align-self: flex-start;
     padding: 0;
     border-bottom: 1px solid black;
