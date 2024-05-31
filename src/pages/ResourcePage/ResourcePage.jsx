@@ -12,7 +12,6 @@ export default function ResourcePage() {
           <h1 className="resource-page__header--title">Unlock Your Financial Potential</h1>
       </div>
       <ResourceCard/>
-      <h2>Total Credit: 0 </h2>
     </div>
   )
 }
