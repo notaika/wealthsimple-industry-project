@@ -14,11 +14,18 @@
         height: 18px;
         align-self: baseline;
         top: 4px;
+
+        &:hover {
+            cursor: pointer;
+        }
     }
     &__back {
         background-color: white;
         border: none;
 
+        &:hover {
+            cursor: pointer;
+        }
         &-img {
             height: 24px;
             padding-right: 34px;
@@ -28,6 +35,10 @@
         font-size: 14px;
         font-weight: 600;
         color:#33302f;
+
+        &:hover {
+            cursor: pointer;
+        }
     }
     &__nav {
         display: flex;
