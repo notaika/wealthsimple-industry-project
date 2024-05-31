@@ -1,4 +1,5 @@
 import wealthsimpleLogo from "../../assets/logo/WealthsimpleLogo.svg"
+import "./Header.scss"
 function Header(){
   return(
     <header className="header">
