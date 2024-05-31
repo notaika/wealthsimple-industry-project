@@ -1,15 +1,16 @@
 @use '../../styles/partials/typography';
 
 .quiz {
-    height: 20%;
+    height: 170px;
     margin: 0 20px;
 
     &__header {
         background-image: url('../../assets/hero.jpeg');
         background-color: white;
-        background-position-x: 220px;
-        background-size: contain;
+        background-position-x: 150px;
+        background-position-y: -20px;
         background-repeat: no-repeat;
+        background-size: 350px;
         height: 100%;
         display: flex;
         align-items: center;
@@ -20,12 +21,6 @@
             padding-left: 36px;
             font-weight: 600;
         }
-        &-nav {
-            display: flex;
-            justify-content: space-around;
-            padding: 16px;
-            border-bottom: 1px solid #f1f0f0;
-        }
     }
     &__link {
         color: #33302f;
@@ -35,15 +30,12 @@
     }
     &__container {
         background-color: white;
-        margin-top: 30px;
+        margin-top: 36px;
         box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
         border-radius: 20px;
         padding: 0 0 8px 0;
     }
     &__question {
-        &-text {
-            margin-bottom: 24px;
-        }
         &-counter {
             position: relative;
             background-color: white;
