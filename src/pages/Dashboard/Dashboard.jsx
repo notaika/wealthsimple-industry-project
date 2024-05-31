@@ -12,6 +12,7 @@ export default function Dashboard() {
             <div className="dashboard__resources-card">
                 <h2 className="dashboard__resources-title">Learn and Earn</h2>
                 <img className='dashboard__resources-image' src={vault} alt='vault' />
+                <p className="dashboard__resources-description">Enhance your financial knowledge and earn rewards. Complete courses and activities to gain points and unlock exciting benefits.</p>
                 <Link to='/resources' className='dashboard__resources-link'>Explore Resources <img src={rightArrow} alt="A right arrow icon for link" className="dashboard__resources-icon" /></Link>
             </div>
         </div>

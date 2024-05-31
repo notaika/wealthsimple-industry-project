@@ -15,6 +15,15 @@
         align-self: baseline;
         top: 4px;
     }
+    &__back {
+        background-color: white;
+        border: none;
+
+        &-img {
+            height: 24px;
+            padding-right: 34px;
+        }
+    }
     &__credits {
         font-size: 14px;
         font-weight: 600;

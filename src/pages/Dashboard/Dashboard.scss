@@ -7,29 +7,29 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 445px;
-    height: 100%;
+    height: 979px;
     display: flex;
     flex-direction: column;
 
     &__resources {
+        position: relative;
         background-color: #fcfcfc;
-        height: 20.5rem;
-        width: 445px;
-        position: absolute;
+        height: 100%;
         top: 28.9rem;
         display: flex;
         justify-content: center;
 
-
         &-card {
+            position: absolute;
             background-color: white;
             box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-            width: 92%;
-            height: 100%;
             border-radius: 20px;
             padding: 1rem;
             display: flex;
             flex-direction: column;
+            height: 26.5rem;
+            width: 415px;
+            position: absolute;
         }
         &-title {
             text-align: left;
@@ -46,6 +46,9 @@
             color: #33302f;
             font-size: 18px;
             text-align: left;
+            padding-top: 1rem;
+            border-top: 1px solid rgb(227, 227, 227);
+            margin-top: 1rem;
         }
         &-image {
             border-radius: 20px;
@@ -53,14 +56,17 @@
             box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
             width: 240px;
         }
+        &-description {
+            text-align: left;
+        }
 
     }
     &__rewards {
         background-color: #fcfcfc;
-        height: 8.7rem;
+        height: 11rem;
         width: 445px;
         position: absolute;
-        top: 51rem;
+        top: 56.9rem;
         display: flex;
         justify-content: center;
 
@@ -85,7 +91,7 @@
             height: 14px;
         }
         &-description {
-            padding: 0.3rem 0;
+            padding: 0.3rem 0 0.25rem 0;
         }
     }
 }
