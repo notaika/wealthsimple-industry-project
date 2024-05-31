@@ -1,60 +1,10 @@
-import ResourceCard from "../../components/ResourceCard/ResourceCard";
-import Header from "../../components/Header/Header"
-import Navbar from "../../components/Navbar/Navbar"
-import "./ResourcePage.scss" 
-function ResourcePage(){
-  return(
-    <div className="resource-page">
-      <Header/>
-      <div  className="resource-page__hero">
-      <h1  className="resource-page__header"> Introduction to RRSP</h1>
-      </div>
-      <Navbar/>
-      <div className="resource-page__overview">
-      <h1 className="resource-page__subheader"> Course Overview</h1>
-      </div>
-      <h4>Introduction</h4>
-      <ul className="resource-page__list">
-        <li className="resource-page__item">
-          <div className="resource-page__progress"></div>
-            RRSP Basics
-        </li>
-        <li className="resource-page__item">
-          <div className="resource-page__progress"></div>
-          RRSP Eligibility
-        </li>
-      </ul>
-      <h4>RRSP Basics</h4>
-      <ul className="resource-page__list">
-        <li className="resource-page__item">
-          <div className="resource-page__progress"></div>
-          Topic 1
-        </li>
-        <li className="resource-page__item">
-          <div className="resource-page__progress"></div>
-          Topic 2
-        </li>
-        <li className="resource-page__item">
-        <div className="resource-page__progress"></div>
-          Topic 3
-        </li>
-      </ul>
-      <h4>RRSP Eligibility</h4>
-      <ul className="resource-page__list">
-        <li className="resource-page__item">
-          <div className="resource-page__progress"></div>
-          Topic 1
-        </li>
-        <li className="resource-page__item">
-          <div className="resource-page__progress"></div>
-          Topic 2
-        </li>
-        <li className="resource-page__item">
-        <div className="resource-page__progress"></div>
-          Topic 3
-        </li>
-      </ul>
+import React from 'react'
+import CurriculumPage from '../CurriculumPage/CurriculumPage'
 
+export default function ResourcePage() {
+  return (
+    <div>
+      <CurriculumPage />
     </div>
   )
 }
