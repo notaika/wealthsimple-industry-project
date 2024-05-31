@@ -15,6 +15,13 @@ export default function Dashboard() {
                 <Link to='/resources' className='dashboard__resources-link'>Explore Resources <img src={rightArrow} alt="A right arrow icon for link" className="dashboard__resources-icon" /></Link>
             </div>
         </div>
+        <div className="dashboard__rewards">
+            <div className="dashboard__rewards-card">
+                <h2 className="dashboard__rewards-title">Rewards</h2>
+                <p className="dashboard__rewards-description">Participate in various learning activities and earn credits that can be redeemed for exciting rewards!</p>
+                <Link to='/rewards' className='dashboard__resources-link'>Redeem Rewards <img src={rightArrow} alt="A right arrow icon for link" className="dashboard__rewards-icon" /></Link>
+            </div>
+        </div>
     </div>
   )
 }

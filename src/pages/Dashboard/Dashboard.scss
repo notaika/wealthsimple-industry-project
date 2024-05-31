@@ -8,6 +8,8 @@
     background-repeat: no-repeat;
     width: 445px;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 
     &__resources {
         background-color: #fcfcfc;
@@ -52,5 +54,38 @@
             width: 240px;
         }
 
+    }
+    &__rewards {
+        background-color: #fcfcfc;
+        height: 8.7rem;
+        width: 445px;
+        position: absolute;
+        top: 51rem;
+        display: flex;
+        justify-content: center;
+
+        &-card {
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+            width: 92%;
+            height: 100%;
+            border-radius: 20px;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+        }
+        &-title {
+            text-align: left;
+            font-weight: 600;
+            font-size: 20px;
+            margin: 0;            
+        }
+        &-icon{
+            height: 14px;
+        }
+        &-description {
+            padding: 0.3rem 0;
+        }
     }
 }
