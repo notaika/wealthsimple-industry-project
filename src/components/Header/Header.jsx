@@ -13,7 +13,7 @@ export default function Header() {
     <header className='head'>
         <div className="head--top">
             <Link to='/'><img src={wsLogo} alt="Wealthsimple logo" className="head__logo" /></Link>
-            <p className="head__credits">Credits: 0</p>
+            <Link to='/rewards' className="head__credits">Credits: 40</Link>
         </div>
         <div className="head--bot">
         <nav className="head__nav">
