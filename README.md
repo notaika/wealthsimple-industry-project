@@ -30,3 +30,19 @@ To checkout the app-demo: run `npm run dev` in your console. <br>
     - With that being said, everything is hard-coded and we'd like to highlight that this app contains simple functionality and doesn't explore the depths of logic and back-end, but will be explained during the presentation.
 - Everything is to be <b> viewed strictly in 445px (WIDTH) </b> as we based it off the app screenshot.
 - The hard-coded functionality only shows one possible example of each functionality and scenario.
+
+## App Screenshots
+Dashboard:
+![alt text](./src/assets/screenshots/image.png)
+
+Resources Page:
+![alt text](./src/assets/screenshots/image-1.png)
+
+Curriculum Page:
+![alt text](./src/assets/screenshots/image-2.png)
+
+Quiz Page:
+![alt text](./src/assets/screenshots/image-3.png)
+
+Rewards Page:
+![alt text](./src/assets/screenshots/image-4.png)
