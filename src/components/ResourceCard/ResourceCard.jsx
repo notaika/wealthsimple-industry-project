@@ -1,4 +1,4 @@
-
+import "./ResourceCard.scss"
 function ResourceCard(){
   const courseList= [{
     "id": 1,
@@ -28,10 +28,10 @@ function ResourceCard(){
 ]
 
 return (
-  <ul className="resource__list">
+  <ul className="resource-card">
     {
       courseList.map(course => {
-        return <li className="resource__item" key={course.id}>{course.name}</li>;
+        return <li className="resource-card__item" key={course.id}>{course.name}</li>;
       })
     }
   </ul>
