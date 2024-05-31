@@ -24,7 +24,22 @@ function ResourcePage(){
           RRSP Eligibility
         </li>
       </ul>
-      <h4>Introduction</h4>
+      <h4>RRSP Basics</h4>
+      <ul className="resource-page__list">
+        <li className="resource-page__item">
+          <div className="resource-page__progress"></div>
+          Topic 1
+        </li>
+        <li className="resource-page__item">
+          <div className="resource-page__progress"></div>
+          Topic 2
+        </li>
+        <li className="resource-page__item">
+        <div className="resource-page__progress"></div>
+          Topic 3
+        </li>
+      </ul>
+      <h4>RRSP Eligibility</h4>
       <ul className="resource-page__list">
         <li className="resource-page__item">
           <div className="resource-page__progress"></div>
